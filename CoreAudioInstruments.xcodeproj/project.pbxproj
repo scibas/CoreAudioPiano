@@ -10,6 +10,8 @@
 		17C636D427737E283B3F441E /* Pods_CoreAudioInstruments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65676765B7A087EADBADCA4F /* Pods_CoreAudioInstruments.framework */; };
 		E57839EE200BCDF5007BD24A /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57839ED200BCDF5007BD24A /* AudioEngine.swift */; };
 		E57839F1200BCE62007BD24A /* AudioSessionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57839F0200BCE62007BD24A /* AudioSessionHelpers.swift */; };
+		E57839F8200BCF99007BD24A /* piano.aupreset in Resources */ = {isa = PBXBuildFile; fileRef = E57839F7200BCF99007BD24A /* piano.aupreset */; };
+		E57839FA200BCFDB007BD24A /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = E57839F9200BCFDB007BD24A /* Sounds */; };
 		E5A5232D200B91F900D77682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A5232C200B91F900D77682 /* AppDelegate.swift */; };
 		E5A5232F200B91F900D77682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A5232E200B91F900D77682 /* ViewController.swift */; };
 		E5A52334200B91F900D77682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A52333200B91F900D77682 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		D67F9AD8D51A6F19645B77BC /* Pods-CoreAudioInstruments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreAudioInstruments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreAudioInstruments/Pods-CoreAudioInstruments.debug.xcconfig"; sourceTree = "<group>"; };
 		E57839ED200BCDF5007BD24A /* AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
 		E57839F0200BCE62007BD24A /* AudioSessionHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioSessionHelpers.swift; sourceTree = "<group>"; };
+		E57839F7200BCF99007BD24A /* piano.aupreset */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = piano.aupreset; sourceTree = "<group>"; };
+		E57839F9200BCFDB007BD24A /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		E5A52329200B91F900D77682 /* CoreAudioInstruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAudioInstruments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A5232C200B91F900D77682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5A5232E200B91F900D77682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
@@ -62,6 +66,8 @@
 		E57839EC200BCAE5007BD24A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E57839F9200BCFDB007BD24A /* Sounds */,
+				E57839F7200BCF99007BD24A /* piano.aupreset */,
 				E5A52333200B91F900D77682 /* Assets.xcassets */,
 				E5A52335200B91F900D77682 /* LaunchScreen.storyboard */,
 			);
@@ -170,7 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E57839F8200BCF99007BD24A /* piano.aupreset in Resources */,
 				E5A52337200B91F900D77682 /* LaunchScreen.storyboard in Resources */,
+				E57839FA200BCFDB007BD24A /* Sounds in Resources */,
 				E5A52334200B91F900D77682 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
